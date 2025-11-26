@@ -8,8 +8,8 @@
                 flex-direction: column;
                 height: 70vh;
             }
-        [type="search"]{width: 700px; height: 45px; border-radius: 100px; padding-left: 20px; font-size: larger; margin-top: 0px;}
+        [type="search"]{width: 700px; height: 45px; border-radius: 100px; padding-left: 20px; font-size: larger; }
         h1{display: flex; align-items: center; justify-content: center; font-size: 60px; -webkit-text-fill-color: rgba(110, 92, 69, 0.644); margin-bottom: 8px; }
-        [type="submit"]{width: 150px; height: 40px; border-radius: 30px;  background-color: rgba(180, 161, 120, 0.185);}
+        [type="submit"]{width: 150px; height: 40px; position: absolute; border-radius: 30px;  background-color: rgba(180, 161, 120, 0.185);}
         [type="submit"]:hover {background-color: rgba(180, 161, 120, 0.397); transition: 0.3s;}
         [href="./create.html"]{ border: 1px solid black; padding: 5px; background-color: rgba(161, 150, 113, 0.24);}
